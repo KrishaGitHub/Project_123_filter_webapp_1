@@ -1,0 +1,18 @@
+h3{
+    font-size: 30px !important;
+}
+.btn-success:hover{
+    background-color: rgb(0, 0, 255);
+    color: gold;
+}
+canvas{
+    animation-name: lipstick;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+@keyframes lipstick {
+    from {box-shadow: 2px 10px 30px rgb(240, 10, 10);}
+    to {box-shadow: 10px 2px 30px rgb(239, 11, 144);}
+}
